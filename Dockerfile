@@ -18,7 +18,7 @@ RUN npm run build && \
 
 WORKDIR /usr/src/app
 
-VOLUME [ "/usr/src/app/run" ]
+# VOLUME [ "/usr/src/app/run" ]
 
 EXPOSE 3000
 
